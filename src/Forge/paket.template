@@ -1,0 +1,23 @@
+type project
+owners
+    Jared Hester
+authors 
+    Jared Hester
+projectUrl
+    http://github.com/cloudroutine/Forge
+iconUrl
+    https://raw.githubusercontent.com/cloudroutine/Forge/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/cloudroutine/Forge/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    F# fsharp project generator msbuild fsproj
+summary
+    F# tool for proj and sln generation
+description
+    F# tool for proj and sln generation
+
+
