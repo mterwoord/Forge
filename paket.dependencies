@@ -1,5 +1,7 @@
 source https://nuget.org/api/v2
 
+nuget argu
+nuget fscheck
 nuget FSharp.Formatting
 nuget NUnit ~> 2
 nuget NUnit.Runners ~> 2
