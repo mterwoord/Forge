@@ -2,10 +2,13 @@ source https://nuget.org/api/v2
 
 nuget argu
 nuget fscheck
+nuget FSharp.Compiler.Service
 nuget FSharp.Formatting
+nuget MSBuild 0.1.2 framework: >= net46
 nuget NUnit ~> 2
 nuget NUnit.Runners ~> 2
 nuget FAKE
 nuget SourceLink.Fake
+nuget System.Xml.XDocument 4.0.10
 
 github fsharp/FAKE modules/Octokit/Octokit.fsx

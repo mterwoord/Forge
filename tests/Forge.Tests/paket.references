@@ -1,3 +1,5 @@
 NUnit
 NUnit.Runners
 fscheck
+msbuild
+System.Xml.XDocument
