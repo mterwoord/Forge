@@ -59,21 +59,19 @@
   -->
   <Import Project="..\..\.paket\paket.targets" />
   <ItemGroup>
-    <Compile Include="Constants.fs" />
-    <Compile Include="Domain.fs" />
-    <Compile Include="EnvironmentHelper.fs" />
-    <Compile Include="Logging.fs" />
-    <Compile Include="Pervasive.fs" />
-    <Compile Include="RegistryHelper.fs" />
-    <Compile Include="FileHelperfs.fs" />
-    <Compile Include="SemVer.fs" />
-    <Compile Include="VersionRange.fs" />
-    <Compile Include="FrameworkHandling.fs" />
-    <Compile Include="PlatformMatching.fs" />
-    <Compile Include="Requirements.fs" />
-    <Compile Include="InstallModel.fs" />
-    <Compile Include="ProjectFile.fs" />
-    <Compile Include="FscTools.fs" />
+    <Compile Include="Environment\Constants.fs" />
+    <Compile Include="Environment\Domain.fs" />
+    <Compile Include="Environment\EnvironmentHelper.fs" />
+    <Compile Include="Environment\Logging.fs" />
+    <Compile Include="Environment\Pervasive.fs" />
+    <Compile Include="Environment\RegistryHelper.fs" />
+    <Compile Include="Environment\FileHelperfs.fs" />
+    <Compile Include="Environment\FrameworkHandling.fs" />
+    <Compile Include="Environment\PlatformMatching.fs" />
+    <Compile Include="ProjectSystem\Requirements.fs" />
+    <Compile Include="ProjectSystem\InstallModel.fs" />
+    <Compile Include="ProjectSystem\ProjectFile.fs" />
+    <Compile Include="ProjectSystem\FscTools.fs" />
     <None Include="Script.fsx" />
     <None Include="paket.template" />
     <None Include="paket.references" />
